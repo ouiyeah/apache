@@ -7,8 +7,11 @@ install apache2 in terminal for ubuntu
 # config settings
 
 find the position of "<Directory /var/www/>" and change to new directory if necessary
+
 >$ sudo vi /etc/apache2/apache2.conf
+
 find the position of "DocumentRoot /var/www/html" and change to new root directory if necessary
+
 >$ sudo vi /etc/apache2/sites-available/000-default.conf
 
 ***
