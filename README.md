@@ -6,7 +6,7 @@ install apache2 in terminal for ubuntu
 ***
 # config settings
 
-find the position of "<Directory /var/www/>" and change to new directory if necessary
+find the position of "\<Directory /var/www/\>" and change to new directory if necessary
 
 >$ sudo vi /etc/apache2/apache2.conf
 
