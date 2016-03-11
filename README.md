@@ -20,7 +20,7 @@ restart apache if config changed
 
 change the www folder to user workspaces
 
->$ mkdir -p ~/workspaces/www
+>$ mkdir -p ~/workspaces/www/html
 
 >$ sudo rm -r /var/www
 
