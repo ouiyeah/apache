@@ -14,7 +14,14 @@ find the position of "DocumentRoot /var/www/html" and change to new root directo
 
 >$ sudo vi /etc/apache2/sites-available/000-default.conf
 
-***
-# restart
+restart apache if config changed
 
 >$ sudo /etc/init.d/apache2 restart
+
+change the www folder to user workspaces
+
+>$ mkdir -p ~/workspaces/www
+
+>$ sudo rm -r /var/www
+
+>$ sudo ln -s ~/workspaces/www /var/www
