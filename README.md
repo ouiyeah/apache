@@ -24,4 +24,4 @@ change the www folder to user workspaces
 
 >$ sudo rm -r /var/www
 
->$ sudo ln -s ~/workspaces/www /var/www
+>$ sudo ln -s ~/workspaces/hitrobot/ros-indigo/www/ /var/www
