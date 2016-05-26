@@ -20,8 +20,6 @@ restart apache if config changed
 
 change the www folder to user workspaces
 
->$ mkdir -p ~/workspaces/www/html
-
 >$ sudo rm -r /var/www
 
 >$ sudo ln -s ~/workspaces/hitrobot/ros-indigo/www/ /var/www
