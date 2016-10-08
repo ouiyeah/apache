@@ -22,4 +22,4 @@ change the www folder to user workspaces
 
 >$ sudo rm -r /var/www
 
->$ sudo ln -s ~/catkin_ws/website/ /var/www
+>$ sudo ln -s ~/catkin_ws/www /var/www
